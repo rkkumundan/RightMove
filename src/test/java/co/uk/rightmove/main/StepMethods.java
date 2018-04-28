@@ -92,10 +92,10 @@ public class StepMethods {
 		assertThat(ActualTitle, equalTo(ExpectedTitle));
 	}
 	public void user_clicks_on_newly_listed_property(){
-		driver.findElement(By.cssSelector("#l-searchResults > div:nth-child(2) > div > div.propertyCard-wrapper > div.propertyCard-content.propertyCard-distance--show > div.propertyCard-section")).click();
+		driver.findElement(By.cssSelector("#l-searchResults > div:nth-child(3) > div > div.propertyCard-wrapper > div.propertyCard-content.propertyCard-distance--show")).click();
 	}
 	public void user_clicks_on_newly_listed_property_to_rent(){
-		driver.findElement(By.cssSelector("#l-searchResults > div:nth-child(2) > div > div.propertyCard-wrapper > div.propertyCard-content.propertyCard-distance--show > div.propertyCard-section > div.propertyCard-details > a > h2")).click();
+		driver.findElement(By.cssSelector("#l-searchResults > div:nth-child(2) > div > div.propertyCard-wrapper > div.propertyCard-content.propertyCard-distance--show > div.propertyCard-section > div.propertyCard-description > a > span")).click();
 	}
 	public void user_view_the_newly_listed_property() {
 		String Actual = driver.findElement(By.xpath("//*[contains(text(),'Back to property listing')]")).getText();

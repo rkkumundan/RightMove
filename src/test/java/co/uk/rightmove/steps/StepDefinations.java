@@ -54,16 +54,16 @@ public class StepDefinations {
 	public void usigned_in_user_should_be_able_to_land_in_properties_listed_page_for_the_mentioned_to_rent(String pin) throws Throwable {
 		SM.user_checks_listed_page_title_to_rent(pin);
 	}
-	@Then("^unsiged in user should be able to sort property by \"(.*?)\" listed$")
-	public void unsiged_in_user_should_be_able_to_sort_property_by_listed(String sortingtype) throws Throwable {
+	@Then("^unsigned in user should be able to sort property by \"(.*?)\" listed$")
+	public void unsigned_in_user_should_be_able_to_sort_property_by_listed(String sortingtype) throws Throwable {
 	    SM.user_sorts_using_newest_on_top(sortingtype);
 	}
-	@When("^unsiged in user able to click the new listed property$")
-	public void unsiged_in_user_able_to_click_the_new_listed_property() throws Throwable {
+	@When("^unsigned in user able to click the new listed property$")
+	public void unsigned_in_user_able_to_click_the_new_listed_property() throws Throwable {
 	    SM.user_clicks_on_newly_listed_property();
 	}
-	@Then("^unsiged in user able to click the new listed to rent property$")
-	public void unsiged_in_user_able_to_click_the_new_listed_to_rent_property() throws Throwable {
+	@Then("^unsigned in user able to click the new listed to rent property$")
+	public void unsigned_in_user_able_to_click_the_new_listed_to_rent_property() throws Throwable {
 		SM.user_clicks_on_newly_listed_property_to_rent();
 	}
 

@@ -40,7 +40,7 @@ And unsigned in user should land to the page with various search criteria for th
 And unsigned in user should able to search by "<radius>", "<propertytype>", "<minpricerange>", "<maxpricerange>", "<minbedrooms>" ,"<maxbedrooms>" and "<addedtosite>"
 And unsigned in user click on find properties
 Then usigned in user should be able to land in properties listed page for the mentioned "<pin>"
-And unsiged in user should be able to sort property by "<sortingtype>" listed
+And unsigned in user should be able to sort property by "<sortingtype>" listed
 And unsigned in user closes the browser
 
 Examples:
@@ -57,8 +57,8 @@ And unsigned in user should land to the page with various search criteria for th
 And unsigned in user should able to search by "<radius>", "<propertytype>", "<minpricerange>", "<maxpricerange>", "<minbedrooms>" ,"<maxbedrooms>" and "<addedtosite>"
 And unsigned in user click on find properties
 And usigned in user should be able to land in properties listed page for the mentioned "<pin>"
-And unsiged in user should be able to sort property by "<sortingtype>" listed
-And unsiged in user able to click the new listed property
+And unsigned in user should be able to sort property by "<sortingtype>" listed
+And unsigned in user able to click the new listed property
 Then the new listed property page should open
 And unsigned in user closes the browser
 
