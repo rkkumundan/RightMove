@@ -46,7 +46,7 @@
 						<version>2.21.0</version>
 						<configuration>
 							<includes>
-								<include>**/RightMoveForSaleRunner.java.java</include>
+								<include>**/RightMoveForSaleRunner.java</include>
 							</includes>
 						</configuration>
 					</plugin>
