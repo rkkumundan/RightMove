@@ -27,6 +27,7 @@ And unsigned in user should able to search by "<radius>", "<propertytype>", "<mi
 And unsigned in user click on find properties
 And unsigned in user closes the browser
 
+
 Examples:
 | pin    | radius         | propertytype | minpricerange | maxpricerange |minbedrooms | maxbedrooms | addedtosite   |     
 | W5 2BF | Within 5 miles | Bungalows    | 50,000        |    700,000    | 1          |   5         | Last 3 days   |
