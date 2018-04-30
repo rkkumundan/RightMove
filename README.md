@@ -1,4 +1,4 @@
-# Right Move To Sale and For Rent property testing
+# Right Move For Sale and To Rent property testing
 
 ## Getting Started
 
